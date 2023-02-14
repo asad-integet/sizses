@@ -1,0 +1,87 @@
+html {
+	font-size: 10px;
+}
+
+@media (max-width: 2560px) {
+	/* html {
+		font-size: 13.333333333333332px;
+	} */
+}
+
+@media (max-width: 1920px) {
+	html {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 1680px) {
+	html {
+		font-size: 8.75px;
+	}
+}
+
+@media (max-width: 1600px) {
+	html {
+		font-size: 8.333333333333334px;
+	}
+}
+
+@media (max-width: 1440px) {
+	html {
+		font-size: 7.5px;
+	}
+}
+
+@media (max-width: 1400px) {
+	html {
+		font-size: 7.291666666666666px;
+	}
+}
+
+@media (max-width: 1368px) {
+	html {
+		font-size: 7.125px;
+	}
+}
+
+@media (max-width: 1366px) {
+	html {
+		font-size: 7.114583333333333px;
+	}
+}
+
+@media (max-width: 1300px) {
+	html {
+		font-size: 6.770833333333334px;
+	}
+}
+
+@media (max-width: 1280px) {
+	html {
+		font-size: 6.666666666666666px;
+	}
+}
+
+@media (max-width: 1208px) {
+	html {
+		font-size: 6.291666666666666px;
+	}
+}
+
+@media (max-width: 1152px) {
+	html {
+		font-size: 6px;
+	}
+}
+
+@media (max-width: 1024px) {
+	html {
+		font-size: 5.333333333333333px;
+	}
+}
+
+@media (max-width: 991px) {
+	html {
+		font-size: 10px;
+	}
+}

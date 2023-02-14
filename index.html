@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Font Size</title>
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JS Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="size" style="font-size: 5rem;">
+        <ul>
+            <li>Viewport: <span id="body" class="text-primary"></span></li>
+            <li></li>
+            <li>Font size: <span id="font" class="text-primary"></span></li>
+        </ul>
+    </div>
+    <script>
+        $(window).on("load", function () {
+            /*_____ HTML Font _____*/
+            w = $(window).width();
+            xl = 1522;
+            // md = 1280;
+            md = 1024;
+            ws = (w / 1522) * 10;
+            if (w >= md) {
+                $("html").css("font-size", ws + "px");
+                $("#body").text(w + "px");
+                $("#font").text(ws + "px");
+            }
+            $(window).on("resize", function () {
+                w = $(window).width();
+                xl = 1522;
+                // md = 1280;
+                md = 1024;
+                ws = (w / 1522) * 10;
+                if (w >= md) {
+                    $("html").css("font-size", ws + "px");
+                    $("#body").text(w + "px");
+                    $("#font").text(ws + "px");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
